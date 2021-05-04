@@ -1,2 +1,2 @@
 # ansible-testing
-Ansible stuff goes here
+inventory.cfg on fail, mis ütleb ära, kus on inventory fail(hetkel samas kaustas) ja määrab ka võtme asukoha.
