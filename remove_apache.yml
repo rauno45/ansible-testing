@@ -1,0 +1,19 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+  - name: update repository
+    apt:
+      update_cache: yes
+
+  - name: removes apache
+    apt:
+      name: apache2
+      state: absent
+
+  - name: removes php support
+    apt:
+      name: libapache2-mod-php
+      state: absent
