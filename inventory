@@ -1,1 +1,1 @@
-172.24.23.6
+172.24.23.6 apache_package=apache2 php_package=libapache2-mod-php
